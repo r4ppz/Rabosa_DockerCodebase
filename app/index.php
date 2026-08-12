@@ -35,7 +35,7 @@ unset($_SESSION['flash']);
           <th>Room Type</th>
           <th>Check-In</th>
           <th>Check-Out</th>
-          <th>Handled By (Microservice)</th>
+          <th>Handled By</th>
           <th>Status</th>
           <th class="text-end">Actions</th>
         </tr>
