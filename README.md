@@ -35,23 +35,6 @@ Then open:
 - `http://localhost:8080` - phpMyAdmin
 - `http://localhost:8025` - MailHog
 
-## Layout
-
-```
-docker-compose.yml
-app/            <- System 1 code (mirror of RABOSA_System1 repo)
-microservice/   <- System 2 code (mirror of RABOSA_System2 repo)
-php/
-  Dockerfile
-  conf.d/php.ini          <- PHP settings
-  conf.d/extensions.ini   <- enables pre-built extensions (pdo_mysql, mysqli, ...)
-nginx/
-  conf.d/default.conf        <- System 1 (listen 80 -> php:9000)
-  conf.d/microservice.conf   <- System 2 (listen 81 -> php_ms:9000)
-mysql/
-  init/01-schema.sql         <- creates both DBs, tables and seed data
-```
-
 ## Databases
 
 | Database    | Used by  | Credentials                |
