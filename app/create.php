@@ -93,7 +93,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="col-md-6">
               <label for="employee_id" class="form-label">
                 Handled By
-                <span class="text-muted small">(from Microservice API, port 81)</span>
               </label>
               <select class="form-select" id="employee_id" name="employee_id" required>
                 <option value="">-- Select employee --</option>
