@@ -29,7 +29,7 @@ docker compose up -d --build
 Then open:
 
 - `http://localhost:80` - Hotel System (Main CRUD app)
-- `http://localhost:81` - Employee Microservice API
+- `http://localhost:81/api/employees.php` - Employee Microservice API
 - `http://localhost:8080` - phpMyAdmin
 
 ## Databases
